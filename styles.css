@@ -28,6 +28,7 @@
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 80px;
 }
 
 ul {
@@ -36,6 +37,7 @@ ul {
     list-style: none;   /* to get rid of our bullet-points*/
     color:#E5E7EB;
     gap: 16px;
+    margin-right: 80px;
 }
 
 a {
@@ -51,7 +53,7 @@ a {
 }
 
 .header-body-left {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .header-body-left-title {
@@ -80,12 +82,36 @@ button {
 #header-body-right-img {
     max-height: 240px;
     margin-left: 40px;
+    margin-right: 30px;
+    width: 500px;
 }
 
 
 
 /* Quote/Testimonial Section - Section 3 */
+.testimonal-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    color: #1F2937;
+}
 
+.quote-and-author {
+    margin-right: 100px;
+    margin-left: 100px;
+    max-width: 1000px;
+}
+
+.quote {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 40px;
+}
 
 
 /* Call to Action Section - Section 4 */
@@ -99,7 +125,9 @@ button {
     display: flex;
     background-color: #3882f6;
     justify-content: space-between;
-    margin: 10px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
     border-radius: 10px;
 }
 
