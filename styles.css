@@ -7,7 +7,7 @@
 }   /* for clean slate to build appropriate template */
 
 .container {
-
+    /* nothing for now */
 }
 
 /* Header Section - Section 1 */
@@ -86,31 +86,66 @@ button {
     width: 500px;
 }
 
+/* Section 2 */
+.section-2 {
+    margin: 50px;
+}
 
+.section-2-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    text-align: center;
+    /* padding: 20px; */
+    margin: 50px;
+    /* margin: 20px 50px 50px 200px; */
+}
+
+.section-2-boxes {
+    display: flex;
+    color: #1F2937;
+    font-size: 18px;
+    justify-content: center;
+    margin: 50px 100px 200px 150px;
+    gap: 40px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+span {
+    width: 150px;
+}
 
 /* Quote/Testimonial Section - Section 3 */
 .testimonal-section {
     background-color: #E5E7EB;
     padding: 100px;
-    color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-and-author {
-    margin-right: 100px;
-    margin-left: 100px;
-    max-width: 1000px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .quote {
-    font-size: 20px;
-    font-weight: lighter;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .quote-author {
-    font-size: 20px;
+    color: #1F2937;
+    font-size: 28px;
     font-weight: bold;
     text-align: end;
-    margin-right: 40px;
 }
 
 
@@ -162,5 +197,5 @@ button {
     background-color: #1F2937;
     text-align: center;
     font-weight: 100;
-    padding: 20px;
+    padding: 40px;
 }
