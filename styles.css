@@ -1,1 +1,138 @@
 /* styles.css created by Carlos A. Valdez */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}   /* for clean slate to build appropriate template */
+
+.container {
+
+}
+
+/* Header Section - Section 1 */
+.header {
+    background-color: #1F2937;
+    color:white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 16px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    /* unordered list containing the links */
+    display: flex;
+    list-style: none;   /* to get rid of our bullet-points*/
+    color:#E5E7EB;
+    gap: 16px;
+}
+
+a {
+    /* for our links directly */
+    text-decoration: none;  /* remove iconic blue link color */
+    color: #c7cad2;
+}
+
+.header-body {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.header-body-left {
+    margin-right: 20px;
+}
+
+.header-body-left-title {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    max-width: 444px;
+}
+
+.header-body-left-titlesubtext {
+    color: #c7cad2;
+    font-size: 18px;
+    max-width: 444px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border: solid;
+    border-radius: 10px;
+    border-color: #1F2937;
+    padding: 8px 30px;
+    margin-top: 10px;
+}
+
+#header-body-right-img {
+    max-height: 240px;
+    margin-left: 40px;
+}
+
+
+
+/* Quote/Testimonial Section - Section 3 */
+
+
+
+/* Call to Action Section - Section 4 */
+.closing-section {
+    padding: 100px;
+    background-color: white;
+    color:#F9FAF8;
+}
+
+.closing-section-inner {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.closing-section-inner-left {
+    margin: 40px;
+    margin-left: 100px;
+}
+
+.closing-section-inner-left-title {
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+.closing-section-inner-left-text {
+    font-size: 16px;
+}
+
+#button-closing-section-inner-right {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 40px;
+    margin-right: 100px;
+    border: solid;
+    border-color: white;
+    border-width: medium;
+}
+
+/* Footer Section - Section 5 */
+.footer {
+    color:#c7cad2;
+    background-color: #1F2937;
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+}
